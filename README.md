@@ -1,6 +1,6 @@
 # npmtest-stratum-solo
 
-#### test coverage for  [stratum-solo (v0.0.1)](https://github.com/pocesar/node-stratum-solo)  [![npm package](https://img.shields.io/npm/v/npmtest-stratum-solo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stratum-solo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stratum-solo.svg)](https://travis-ci.org/npmtest/node-npmtest-stratum-solo)
+#### basic test coverage for  [stratum-solo (v0.0.1)](https://github.com/pocesar/node-stratum-solo)  [![npm package](https://img.shields.io/npm/v/npmtest-stratum-solo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stratum-solo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stratum-solo.svg)](https://travis-ci.org/npmtest/node-npmtest-stratum-solo)
 
 #### SHA256 coins (like Bitcoin) and Scrypt coins (like Litecoin) centralized solo mining pool. This "pool" just do the routing between daemons and the miners.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-stratum-solo/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-stratum-solo/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-stratum-solo/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-stratum-solo/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stratum-solo/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stratum-solo/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-stratum-solo/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-stratum-solo/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stratum-solo/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stratum-solo/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-stratum-solo/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-stratum-solo/build/coverage.html/index.html)
 
@@ -70,7 +70,8 @@
         "type": "git",
         "url": "git+ssh://git@github.com/pocesar/node-stratum-solo.git"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "bin": {}
 }
 ```
 
